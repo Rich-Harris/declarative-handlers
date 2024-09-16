@@ -86,3 +86,4 @@ export function handle({ event, resolve }) {
 ## Demos
 
 You can try both approaches out in this repo by cloning it, running `pnpm install`, followed by `pnpm dev` in each of the two directories. In both cases the `/bravo` and `/charlie` routes set `event.locals.foo`, while `/charlie` and `/delta` set `event.locals.bar`.
+# declarative-handlers
