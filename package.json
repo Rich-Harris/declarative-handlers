@@ -1,0 +1,12 @@
+{
+	"name": "declarative-handlers",
+	"version": "0.0.1",
+	"description": "declarative handlers",
+	"private": true,
+	"type": "module",
+	"license": "MIT",
+	"packageManager": "pnpm@9.4.0",
+	"engines": {
+		"pnpm": "^9.0.0"
+	}
+}
