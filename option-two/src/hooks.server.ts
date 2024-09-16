@@ -1,6 +1,3 @@
-import type { Handle, RequestEvent } from '@sveltejs/kit';
-import { sequence } from '@sveltejs/kit/hooks';
-
 const route_specific_hooks = import.meta.glob('./routes/**/hooks.ts');
 
 export async function handle({ event, resolve }) {
